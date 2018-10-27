@@ -1,3 +1,7 @@
 def reformat_languages(languages)
-  # your code here
+    language_attributes = {}
+    languages.each do |type, hash|
+        hash.each do |name, attributes|
+            
+            
 end
